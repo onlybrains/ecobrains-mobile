@@ -63,7 +63,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#d9d9d9',
-    padding: 20,
   },
   header: {
     flexDirection: 'row',
@@ -72,9 +71,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderBottomLeftRadius: 30,
     borderBottomRightRadius: 30,
-    width: 370,
+    width: '100%',
     marginBottom: 10,
-    padding: 10,
+    padding: 20,
   },
   title: {
     margin: 20,

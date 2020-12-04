@@ -37,15 +37,14 @@ export default function Sobre() {
       </View>
       <ScrollView>
         <Text style={styles.title}>
-          Um novo jeito de ser ecológico, usando apenas a mente.
+          O projeto EcoBrains
         </Text>
         <Text style={styles.text}>
-          Ter um pensamento ecológico é muito mais que separar o lixo da sua
-          entre o reciclável e o orgânico. Pensar ecologicamente é ter a certeza
-          que conta com empresas e cooperativas responsáveis, e que entendem da
-          importância de todo o processo. EcoBrains, movendo o mundo, pensando
-          no amanhã.{"\n"}
-          <Text style={styles.textBold}>EcoBrains, movendo o mundo, pensando no amanhã.</Text>
+          Por meio de nossas pesquisas e entrevistas com funcionários ativos nas áreas que serão atingidas por essa aplicação, concluímos que podemos facilitar o contato entre empresas e cooperativas que atualmente ainda é muito burocrático e difícil.
+          {"\n"} {"\n"}
+          Conseguimos entender que a maioria das empresas tanto quanto das cooperativas tem acesso a internet o que automaticamente facilita o acesso para aplicações web. Pensando nessa facilidade tivemos a ideia de desenvolver uma aplicação web utilizando as tecnologias mais recentes e as normas e instruções relacionadas a experiência e interface para o usuário.
+          {"\n"} {"\n"}
+          Pretendemos com essa aplicação interligar a comunicação e as necessidades propostas por esses dois grupos, além de facilitar e agilizar o contato e a negociação entre estes.{"\n"}
         </Text>
       </ScrollView>
     </View>
@@ -63,7 +62,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#d9d9d9',
-    padding: 20,
   },
   header: {
     flexDirection: 'row',
@@ -72,9 +70,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderBottomLeftRadius: 30,
     borderBottomRightRadius: 30,
-    width: 370,
+    width: '100%',
     marginBottom: 10,
-    padding: 10,
+    padding: 20,
   },
   title: {
     margin: 20,
@@ -87,12 +85,6 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontFamily: 'Poppins_400Regular',
   },
-  textBold: {
-    margin: 20,
-    fontSize: 20,
-    color: '#095b26',
-    fontFamily: 'Poppins_700Bold',
-  },
   ecoLogo: {
     height: 70,
     width: 70,
@@ -104,5 +96,5 @@ const styles = StyleSheet.create({
     height: 70,
     resizeMode: 'contain',
   },
-  
+
 });

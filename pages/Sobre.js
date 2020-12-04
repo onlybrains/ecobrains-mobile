@@ -35,15 +35,23 @@ export default function Sobre() {
         <Image style={styles.ecoTexto} source={ecobrains} />
       </View>
       <ScrollView>
-        <Text style={styles.title}>
-          O projeto EcoBrains
-        </Text>
+        <Text style={styles.title}>O projeto EcoBrains</Text>
         <Text style={styles.text}>
-          Por meio de nossas pesquisas e entrevistas com funcionários ativos nas áreas que serão atingidas por essa aplicação, concluímos que podemos facilitar o contato entre empresas e cooperativas que atualmente ainda é muito burocrático e difícil.
-          {"\n"} {"\n"}
-          Conseguimos entender que a maioria das empresas tanto quanto das cooperativas tem acesso a internet o que automaticamente facilita o acesso para aplicações web. Pensando nessa facilidade tivemos a ideia de desenvolver uma aplicação web utilizando as tecnologias mais recentes e as normas e instruções relacionadas a experiência e interface para o usuário.
-          {"\n"} {"\n"}
-          Pretendemos com essa aplicação interligar a comunicação e as necessidades propostas por esses dois grupos, além de facilitar e agilizar o contato e a negociação entre estes.{"\n"}
+          Por meio de nossas pesquisas e entrevistas com funcionários ativos nas
+          áreas que serão atingidas por essa aplicação, concluímos que podemos
+          facilitar o contato entre empresas e cooperativas que atualmente ainda
+          é muito burocrático e difícil.
+          {'\n'} {'\n'}
+          Conseguimos entender que a maioria das empresas tanto quanto das
+          cooperativas tem acesso a internet o que automaticamente facilita o
+          acesso para aplicações web. Pensando nessa facilidade tivemos a ideia
+          de desenvolver uma aplicação web utilizando as tecnologias mais
+          recentes e as normas e instruções relacionadas a experiência e
+          interface para o usuário.
+          {'\n'} {'\n'}
+          Pretendemos com essa aplicação interligar a comunicação e as
+          necessidades propostas por esses dois grupos, além de facilitar e
+          agilizar o contato e a negociação entre estes.{'\n'}
         </Text>
       </ScrollView>
     </View>
@@ -65,6 +73,7 @@ const styles = StyleSheet.create({
     borderBottomLeftRadius: 30,
     borderBottomRightRadius: 30,
     width: '100%',
+    height: '20%',
     padding: 12,
   },
   title: {
@@ -89,5 +98,4 @@ const styles = StyleSheet.create({
     height: 70,
     resizeMode: 'contain',
   },
-
 });

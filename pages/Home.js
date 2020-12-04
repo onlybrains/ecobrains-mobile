@@ -43,8 +43,10 @@ export default function Home() {
           entre o reciclável e o orgânico. Pensar ecologicamente é ter a certeza
           que conta com empresas e cooperativas responsáveis, e que entendem da
           importância de todo o processo. EcoBrains, movendo o mundo, pensando
-          no amanhã.{"\n"}
-          <Text style={styles.textBold}>EcoBrains, movendo o mundo, pensando no amanhã.</Text>
+          no amanhã.{'\n'}
+          <Text style={styles.textBold}>
+            EcoBrains, movendo o mundo, pensando no amanhã.
+          </Text>
         </Text>
       </ScrollView>
     </View>
@@ -66,6 +68,7 @@ const styles = StyleSheet.create({
     borderBottomLeftRadius: 30,
     borderBottomRightRadius: 30,
     width: '100%',
+    height: '20%',
     padding: 12,
   },
   title: {
@@ -96,5 +99,4 @@ const styles = StyleSheet.create({
     height: 70,
     resizeMode: 'contain',
   },
-  
 });

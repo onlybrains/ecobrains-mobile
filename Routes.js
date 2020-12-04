@@ -15,7 +15,6 @@ import SignUp from './pages/SignUp';
 const Tab = createBottomTabNavigator();
 
 export default function Routes() {
-
   let [fontsLoaded] = useFonts({
     Poppins_400Regular,
     Poppins_700Bold,
@@ -27,7 +26,7 @@ export default function Routes() {
 
   return (
     <Tab.Navigator
-      initialRouteName={'Sobre'}
+      initialRouteName={'Início'}
       tabBarOptions={{
         labelStyle: {
           fontSize: 12,
@@ -36,7 +35,8 @@ export default function Routes() {
         activeTintColor: '#d9d9d9',
         inactiveTintColor: '#2e9451',
         style: { backgroundColor: '#095b26', height: 60 },
-      }}>
+      }}
+    >
       <Tab.Screen
         name="Início"
         component={Home}
@@ -53,7 +53,11 @@ export default function Routes() {
         options={{
           tabBarLabel: 'Sobre',
           tabBarIcon: ({ color }) => (
-            <MaterialCommunityIcons name="information" color={color} size={33} />
+            <MaterialCommunityIcons
+              name="information"
+              color={color}
+              size={33}
+            />
           ),
         }}
       />

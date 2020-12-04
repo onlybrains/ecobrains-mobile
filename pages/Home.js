@@ -6,7 +6,6 @@ import {
   StatusBar,
   Image,
   ScrollView,
-  WebView,
 } from 'react-native';
 import { AppLoading } from 'expo';
 import {
@@ -52,11 +51,6 @@ export default function Home() {
   );
 }
 
-// <WebView
-//  source = {{
-//    uri:'https://www.google.com/',
-//  }}/>
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -72,8 +66,7 @@ const styles = StyleSheet.create({
     borderBottomLeftRadius: 30,
     borderBottomRightRadius: 30,
     width: '100%',
-    marginBottom: 10,
-    padding: 20,
+    padding: 12,
   },
   title: {
     margin: 20,
